@@ -12,7 +12,7 @@ branches:
   only:
     - master
     - develop
-    - /^release-.*$/
+    - /^release/.*$/
 
 before_install:
   - source .travis/setenv_lua.sh
