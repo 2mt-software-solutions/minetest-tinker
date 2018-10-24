@@ -1,0 +1,6 @@
+return {
+    default = {
+        ROOT = {"test"},
+        pattern = "_test"
+    }
+}

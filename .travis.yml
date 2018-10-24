@@ -1,0 +1,22 @@
+language: c
+
+sudo: false
+
+env:
+  global:
+    - LUAROCKS=3.0.3
+  matrix:
+    - LUA=lua5.2
+
+branches:
+  only:
+    - master
+    - develop
+    - /^release-.*$/
+
+before_install:
+  - source .travis/setenv_lua.sh
+  - luarocks install busted
+
+script:
+  - busted
