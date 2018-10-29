@@ -1,3 +1,3 @@
-print("*yay* 2mt_tinker was loaded!")
+local basePath = minetest.get_modpath("twomt_tinker")
 
-dofile(minetest.get_modpath("twomt_tinker") .. "/nodes.lua")
+dofile(basePath .. "/nodes.lua")
