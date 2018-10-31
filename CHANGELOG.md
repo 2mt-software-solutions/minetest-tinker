@@ -1,3 +1,8 @@
+### 0.4.0 *"external-combustion-security"*
+- Make fabolight degradeable 
+- Add new item fabolight ice
+- Add test if screenshot exists
+
 ### 0.3.0 *"nonenforcing-subsovereign"*
 - Add script for packaging new releases
 
