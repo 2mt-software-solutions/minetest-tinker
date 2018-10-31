@@ -3,7 +3,7 @@ minetest.register_node("twomt_tinker:fabolight", {
     light_source = 5,
     tiles = {"twomt_tinker_fabolight.png"},
     is_ground_content = true,
-    groups = {fleshy = 1},
+    groups = {cracky = 2},
     drop = "twomt_tinker:fabolight"
 })
 
