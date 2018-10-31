@@ -7,6 +7,7 @@ describe("Tinker", function()
         assert.is_true(helper.file_exists('./src/depends.txt'))
         assert.is_true(helper.file_exists('./src/description.txt'))
         assert.is_true(helper.file_exists('./src/mod.conf'))
+        assert.is_true(helper.file_exists('./src/screenshot.png'))
     end)
 
 end)
