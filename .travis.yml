@@ -15,7 +15,7 @@ jobs:
       script: busted
     - stage: "package"
       name: "Create Release Package"
-
+      if: branch = master
       script: ./package.sh -y
 
 before_install:
