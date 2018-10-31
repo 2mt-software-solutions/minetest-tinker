@@ -8,12 +8,6 @@ env:
   matrix:
     - LUA=lua5.2
 
-branches:
-  only:
-    - master
-    - develop
-    - /^release/.*$/
-
 jobs:
   include:
     - stage: "test"
@@ -26,4 +20,5 @@ jobs:
 
 before_install:
   - source .travis/setenv_lua.sh
+  - chmod +x ./package.sh
   - luarocks install busted

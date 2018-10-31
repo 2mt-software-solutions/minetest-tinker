@@ -101,7 +101,7 @@ fi
 if ! $sFlag
 then
 	printf "${BCyan}%-12.12s${NC}" "Version:"
-	printf " ${White}%33s${NC}\n" "$version"
+	printf " ${White}%33s${NC}\n" "${version}"
 fi
 
 # shall we begin?
@@ -138,7 +138,7 @@ status_ok
 cd build
 
 status_msg "Creating version.txt"
-echo "$version" >> version.txt || status_error
+echo "${version}" >> version.txt || status_error
 status_ok
 
 status_msg "Package everything together"
