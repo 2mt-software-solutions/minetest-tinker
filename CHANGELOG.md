@@ -1,3 +1,6 @@
+### 0.4.1
+- Fix package-script for travis
+
 ### 0.4.0 *"external-combustion-security"*
 - Make fabolight degradeable 
 - Add new item fabolight ice
