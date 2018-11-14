@@ -1,4 +1,4 @@
-# twomt_tinker
+# twomt_tinker [![Build Status](https://travis-ci.org/2mt-software-solutions/minetest-tinker.svg?branch=master)](https://travis-ci.org/2mt-software-solutions/minetest-tinker)
 Our first steps into OSS and modding for minetest.
 
 After Hacktoberfest got us into the mood for open source, we decided to do something in our off-work tinkertime that we share with the world.
