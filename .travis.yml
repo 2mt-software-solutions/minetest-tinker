@@ -5,6 +5,7 @@ sudo: false
 env:
   global:
     - LUAROCKS=3.0.3
+    - secure: LU/oaOwyUOr6t3PejLAHGsnKAScx2hD6P7MoATk+ZCS6vji+zxvfIWpsjXXBlwv2UODVzhQsZ/Jst8XyP3MWjo8Fh798v3QG/IVtbny2sFbv1XWDy8FgkxaebNoJrBqbXsd1M2/B7skuoiHe0s7RE8BlYfMBWt3ctHjphkwMX7eC9am3nKOIhNzX2OO3d8ihMzUg2DtuMcFSquZaJTBXhmmK0TTcHBkCTT89f208aH0aFaOLjTI3lLxMZL149WZxURwmYf//6f3auQ9qLLeOFUXY11B+vHbTeojhFqygVGOAqj8s9T9Yt5KOO9DIFXoU++D/P7mJEsN7fyawblCqoI4Zi0sxazrO9IEy6WvRdSbVJjcBeyPKdidhEPcKbakwcUVgvEzQWZyLEqExH7WTRC7Bz0QTaE/J5Y8ErIZNrzzD+fifz0AvM87JgUeiT1aqLqsyM0ep4X/V9+RyrDr6JmD0YuqY2Q6sHl9K0sDM3YiY2zWkA3vVWIv+pyIHWkpr2hBBMyHub+gult1r+9MahOsC0PJBz833i/DPb/qCPrkzRDUdnK2ruyqES4SjZEEuQD9/yvTgw0jtQYI5kgqn8hUUrhLGeR1oty5V897jb145Eevq1vpk9d4NWtk53b2dylBL3Lqsyl+lM45rnSAYaoYJg9tB48G72EjhAC9jsfQ=
   matrix:
     - LUA=lua5.2
 
@@ -20,5 +21,4 @@ jobs:
 
 before_install:
   - source .travis/setenv_lua.sh
-  - chmod +x ./package.sh
   - luarocks install busted
