@@ -1,3 +1,6 @@
+### 0.4.2
+- Add release uplaod to github feature
+
 ### 0.4.1
 - Fix package-script for travis
 
