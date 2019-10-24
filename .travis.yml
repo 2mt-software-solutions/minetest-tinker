@@ -14,10 +14,6 @@ jobs:
     - stage: "test"
       name: "Unit Tests"
       script: busted
-    - stage: "package"
-      name: "Create Release Package"
-      if: branch = master
-      script: ./package.sh -y
 
 before_install:
   - source .travis/setenv_lua.sh
