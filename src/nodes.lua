@@ -25,3 +25,12 @@ minetest.register_ore({
         persist = 0.0
     },
 })
+
+minetest.register_node("twomt_tinker:minevium", {
+    description = "sprouting from your head.",
+    light_source = 2,
+    tiles = {"twomt_tinker_minevium.png"},
+    is_ground_content = true,
+    groups = {cracky = 1},
+    drop = "twomt_tinker:minevium"
+})
