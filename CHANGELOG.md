@@ -1,3 +1,6 @@
+### 0.4.5
+- Add first steps for minevium
+
 ### 0.4.2
 - Add release uplaod to github feature
 
