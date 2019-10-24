@@ -17,7 +17,7 @@ jobs:
     - stage: "package"
       name: "Create Release Package"
       if: branch = master
-      script: ./package.sh -y
+      script: chmod +x package.sh && ./package.sh -y
 
 before_install:
   - source .travis/setenv_lua.sh
