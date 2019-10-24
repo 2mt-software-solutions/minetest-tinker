@@ -1,7 +1,7 @@
 minetest.register_node("twomt_tinker:fabolight", {
     description = "It´s fabulous.",
     light_source = 5,
-    tiles = {"twomt_tinker_fabolight.png"},
+    tiles = {"default_stone.png^twomt_tinker_fabolight.png"},
     is_ground_content = true,
     groups = {cracky = 2},
     drop = "twomt_tinker:fabolight"
