@@ -15,3 +15,9 @@ minetest.register_craft({
         "default:paper"
     }
 })
+
+minetest.register_craft({
+    type = "fuel",
+    recipe = "twomt_tinker:minevium",
+    burntime = 500,
+})
