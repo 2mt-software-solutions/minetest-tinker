@@ -15,3 +15,12 @@ minetest.register_craft({
         "default:paper"
     }
 })
+
+minetest.register_craft({
+	output = "twomt_tinker:minevisword",
+	recipe = {
+		{"twomt_tinker:minevium"},
+		{"twomt_tinker:minevium"},
+		{"default:stick"},
+	}
+})
