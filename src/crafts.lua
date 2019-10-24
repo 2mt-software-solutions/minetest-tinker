@@ -30,3 +30,12 @@ minetest.register_craft({
 		{"default:stick"},
 	}
 })
+
+minetest.register_craft({
+	output = "twomt_tinker:minevipick",
+	recipe = {
+		{"twomt_tinker:minevium", "twomt_tinker:minevium", "twomt_tinker:minevium"},
+		{"", "default:stick", ""},
+		{"", "default:stick", ""},
+	}
+})
