@@ -21,3 +21,12 @@ minetest.register_craft({
     recipe = "twomt_tinker:minevium",
     burntime = 500,
 })
+
+minetest.register_craft({
+	output = "twomt_tinker:minevisword",
+	recipe = {
+		{"twomt_tinker:minevium"},
+		{"twomt_tinker:minevium"},
+		{"default:stick"},
+	}
+})
