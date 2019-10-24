@@ -17,6 +17,12 @@ minetest.register_craft({
 })
 
 minetest.register_craft({
+    type = "fuel",
+    recipe = "twomt_tinker:minevium",
+    burntime = 500,
+})
+
+minetest.register_craft({
 	output = "twomt_tinker:minevisword",
 	recipe = {
 		{"twomt_tinker:minevium"},
