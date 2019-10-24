@@ -10,3 +10,16 @@ minetest.register_tool("twomt_tinker:minevisword", {
         damage_groups = {fleshy=6},
     },
 })
+
+minetest.register_tool("twomt_tinker:mineviaxe", {
+    description = "The Axe with knowledge.",
+    inventory_image = "twomt_tinker_mineviaxe.png",
+    tool_capabilities = {
+        full_punch_interval = 1.0,
+        max_drop_level = 0,
+        groupcaps={
+        	choppy={times={[1]=2.10, [2]=0.90, [3]=0.60}, uses=25, maxlevel=1},
+        },
+        damage_groups = {fleshy=2},
+    },
+})
