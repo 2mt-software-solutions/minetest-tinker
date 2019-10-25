@@ -1,1 +1,5 @@
+Documentation (english)
 Our first steps into minetest modding and OSS
+
+Dokumentation (deutsch)
+Unsere ersten Schritte in minetest modding und OSS.
