@@ -48,3 +48,9 @@ minetest.register_craft({
 		{"", "default:stick"},
 	}
 })
+
+minetest.register_craft({
+	type = "cooking",
+	output = "default:minevium_ingot",
+	recipe = "default:minevium_lump",
+})

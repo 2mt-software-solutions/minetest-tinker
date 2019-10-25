@@ -29,10 +29,10 @@ minetest.register_ore({
 minetest.register_node("twomt_tinker:minevium", {
     description = "sprouting from your head.",
     light_source = 2,
-    tiles = {"default_stone.png^twomt_tinker_minevium.png"},
+    tiles = {"default_stone.png^twomt_tinker_minevium_lump.png"},
     is_ground_content = true,
     groups = {cracky = 1},
-    drop = "twomt_tinker:minevium"
+    drop = "twomt_tinker:minevium_lump"
 })
 
 minetest.register_ore({
