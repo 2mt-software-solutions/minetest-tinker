@@ -51,8 +51,8 @@ minetest.register_craft({
 
 minetest.register_craft({
 	type = "cooking",
-	output = "default:minevium_ingot",
-	recipe = "default:minevium_lump",
+	output = "twomt_tinker:minevium_ingot",
+	recipe = "twomt_tinker:minevium_lump",
 })
     
 minetest.register_craft({
