@@ -48,3 +48,23 @@ minetest.register_craft({
 		{"", "default:stick"},
 	}
 })
+
+minetest.register_craft({
+	type = "cooking",
+	output = "twomt_tinker:minevium_ingot",
+	recipe = "twomt_tinker:minevium_lump",
+})
+    
+minetest.register_craft({
+	output = "twomt_tinker:burning_pumpkin",
+	recipe = {
+		{"twomt_tinker:pumpkin"},
+		{"default:torch"}
+	}
+})
+
+minetest.register_craft({
+	type = "cooking",
+	output = "default:fabolight_ingot",
+	recipe = "default:fabolight_lump",
+})

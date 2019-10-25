@@ -9,3 +9,19 @@ minetest.register_craftitem("twomt_tinker:minevium_book", {
     inventory_image = "twomt_tinker_minevium_book.png",
     on_use = minetest.item_eat(6)
 })
+
+minetest.register_craftitem("twomt_tinker:minevium_lump", {
+	description = "Minevium Lump",
+    inventory_image = "twomt_tinker_minevium_lump.png",
+    on_use = minetest.item_eat(6)
+})
+
+minetest.register_craftitem("twomt_tinker:minevium_ingot", {
+	description = "Minevium Ingot",
+	inventory_image = "twomt_tinker_minevium_ingot.png"
+})
+
+minetest.register_craftitem("twomt_tinker:fabolight_lump", {
+	description = "Fabolight Lump",
+	inventory_image = "twomt_tinker_fabolight_lump.png"
+})
