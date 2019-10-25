@@ -20,3 +20,8 @@ minetest.register_craftitem("twomt_tinker:minevium_ingot", {
 	description = "Minevium Ingot",
 	inventory_image = "twomt_tinker_minevium_ingot.png"
 })
+
+minetest.register_craftitem("twomt_tinker:fabolight_lump", {
+	description = "Fabolight Lump",
+	inventory_image = "twomt_tinker_fabolight_lump.png"
+})

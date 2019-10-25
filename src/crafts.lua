@@ -62,3 +62,9 @@ minetest.register_craft({
 		{"default:torch"}
 	}
 })
+
+minetest.register_craft({
+	type = "cooking",
+	output = "default:fabolight_ingot",
+	recipe = "default:fabolight_lump",
+})

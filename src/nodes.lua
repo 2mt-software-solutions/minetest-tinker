@@ -4,7 +4,7 @@ minetest.register_node("twomt_tinker:fabolight", {
     tiles = {"default_stone.png^twomt_tinker_fabolight.png"},
     is_ground_content = true,
     groups = {cracky = 2},
-    drop = "twomt_tinker:fabolight"
+    drop = "twomt_tinker:fabolight_lump"
 })
 
 minetest.register_ore({
