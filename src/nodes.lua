@@ -32,7 +32,7 @@ minetest.register_node("twomt_tinker:minevium", {
     tiles = {"default_stone.png^twomt_tinker_minevium.png"},
     is_ground_content = true,
     groups = {cracky = 1},
-    drop = "twomt_tinker:minevium"
+    drop = "twomt_tinker:minevium_lump"
 })
 
 minetest.register_ore({
