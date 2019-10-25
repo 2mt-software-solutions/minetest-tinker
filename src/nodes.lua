@@ -53,3 +53,13 @@ minetest.register_ore({
         persist = 0.0
     },
 })
+
+minetest.register_node("twomt_tinker:minevium_plant", {
+    description = "Minevium Plant",
+    light_source = 3,
+    drawtype = "plantlike",
+    tiles = {"twomt_tinker_minevium_plant.png"},
+    fertility = {"grassland"},
+    groups = {snappy = 3, flammable = 1},
+    on_use = minetest.item_eat(20),
+})
