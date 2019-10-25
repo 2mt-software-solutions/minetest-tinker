@@ -1,5 +1,25 @@
 Documentation (english)
 Our first steps into minetest modding and OSS
 
+List of new items and tools:
+- Minevium
+- Minevium axe
+- Minevium plant
+- Minevium shield
+- Minevium sword
+- Fabolight
+- burning pumpkin
+- pumpkin
+
 Dokumentation (deutsch)
 Unsere ersten Schritte in minetest modding und OSS.
+
+Liste der neuen Gegenstände und Werkzeuge:
+- Minevium
+- Minevium Axt
+- Minevium Pflanze
+- Minevium Schild
+- Minevium Schwert
+- Fabolight
+- brennender Kürbis
+- Kürbis
