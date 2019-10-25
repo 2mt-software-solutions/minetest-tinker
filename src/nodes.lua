@@ -82,3 +82,13 @@ minetest.register_node("twomt_tinker:burning_pumpkin", {
     fertility = {"grassland", "dirt"},
     groups = {flammable = 4, },
 })
+
+minetest.register_node("twomt_tinker:minevium_plant", {
+    description = "Minevium Plant",
+    light_source = 3,
+    drawtype = "plantlike",
+    tiles = {"twomt_tinker_minevium_plant.png"},
+    fertility = {"grassland"},
+    groups = {snappy = 3, flammable = 1},
+    on_use = minetest.item_eat(20),
+})
