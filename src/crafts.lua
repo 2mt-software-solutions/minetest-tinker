@@ -32,6 +32,15 @@ minetest.register_craft({
 })
 
 minetest.register_craft({
+	output = "twomt_tinker:minevipick",
+	recipe = {
+		{"twomt_tinker:minevium", "twomt_tinker:minevium", "twomt_tinker:minevium"},
+		{"", "default:stick", ""},
+		{"", "default:stick", ""},
+	}
+})
+
+minetest.register_craft({
 	output = "twomt_tinker:mineviaxe",
 	recipe = {
 		{"twomt_tinker:minevium", "twomt_tinker:minevium"},

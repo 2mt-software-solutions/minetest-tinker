@@ -11,6 +11,19 @@ minetest.register_tool("twomt_tinker:minevisword", {
     },
 })
 
+minetest.register_tool("twomt_tinker:minevipick", {
+	description = "The Pickaxe with knowledge.",
+	inventory_image = "twomt_tinker_minevipick.png",
+	tool_capabilities = {
+		full_punch_interval = 1.0,
+		max_drop_level=1,
+		groupcaps={
+			cracky = {times={[1]=3.50, [2]=1.10, [3]=0.40}, uses=20, maxlevel=2},
+		},
+		damage_groups = {fleshy=2},
+	},
+})
+
 minetest.register_tool("twomt_tinker:mineviaxe", {
     description = "The Axe with knowledge.",
     inventory_image = "twomt_tinker_mineviaxe.png",
