@@ -15,3 +15,8 @@ minetest.register_craftitem("twomt_tinker:minevium_lump", {
     inventory_image = "twomt_tinker_minevium_lump.png",
     on_use = minetest.item_eat(6)
 })
+
+minetest.register_craftitem("twomt_tinker:minevium_ingot", {
+	description = "Minevium Ingot",
+	inventory_image = "twomt_tinker_minevium_ingot.png"
+})
