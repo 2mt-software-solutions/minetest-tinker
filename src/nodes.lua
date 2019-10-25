@@ -53,3 +53,17 @@ minetest.register_ore({
         persist = 0.0
     },
 })
+
+minetest.register_node("twomt_tinker:pumpkin", {
+    description = "Pumpkin",
+    tiles = {
+        "twomt_tinker_pumpkin_top.png",
+        "twomt_tinker_pumpkin_bottom.png",
+        "twomt_tinker_pumpkin_side.png",
+        "twomt_tinker_pumpkin_side.png",
+        "twomt_tinker_pumpkin_side.png",
+        "twomt_tinker_pumpkin_front.png",
+    },
+    fertility = {"grassland", "dirt"},
+    groups = {flammable = 4, },
+})
