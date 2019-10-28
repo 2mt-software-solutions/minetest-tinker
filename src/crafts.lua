@@ -11,22 +11,22 @@ minetest.register_craft({
     type = "shapeless",
     output = "twomt_tinker:minevium_book",
     recipe = {
-        "twomt_tinker:minevium",
+        "twomt_tinker:minevium_ingot",
         "default:paper"
     }
 })
 
 minetest.register_craft({
     type = "fuel",
-    recipe = "twomt_tinker:minevium",
+    recipe = "twomt_tinker:minevium_lump",
     burntime = 500,
 })
 
 minetest.register_craft({
 	output = "twomt_tinker:minevisword",
 	recipe = {
-		{"twomt_tinker:minevium"},
-		{"twomt_tinker:minevium"},
+		{"twomt_tinker:minevium_ingot"},
+		{"twomt_tinker:minevium_ingot"},
 		{"default:stick"},
 	}
 })
@@ -34,7 +34,7 @@ minetest.register_craft({
 minetest.register_craft({
 	output = "twomt_tinker:minevipick",
 	recipe = {
-		{"twomt_tinker:minevium", "twomt_tinker:minevium", "twomt_tinker:minevium"},
+		{"twomt_tinker:minevium_ingot", "twomt_tinker:minevium_ingot", "twomt_tinker:minevium_ingot"},
 		{"", "default:stick", ""},
 		{"", "default:stick", ""},
 	}
@@ -43,8 +43,8 @@ minetest.register_craft({
 minetest.register_craft({
 	output = "twomt_tinker:mineviaxe",
 	recipe = {
-		{"twomt_tinker:minevium", "twomt_tinker:minevium"},
-		{"twomt_tinker:minevium", "default:stick"},
+		{"twomt_tinker:minevium_ingot", "twomt_tinker:minevium_ingot"},
+		{"twomt_tinker:minevium_ingot", "default:stick"},
 		{"", "default:stick"},
 	}
 })
