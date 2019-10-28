@@ -65,6 +65,6 @@ minetest.register_craft({
 
 minetest.register_craft({
 	type = "cooking",
-	output = "default:fabolight_ingot",
-	recipe = "default:fabolight_lump",
+	output = "twomt_tinker:fabolight_ingot",
+	recipe = "twomt_tinker:fabolight_lump",
 })
