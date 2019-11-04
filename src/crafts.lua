@@ -68,3 +68,12 @@ minetest.register_craft({
 	output = "twomt_tinker:fabolight_ingot",
 	recipe = "twomt_tinker:fabolight_lump",
 })
+
+minetest.register_craft({
+	output = "twomt_tinker:minevium_shield",
+	recipe = {
+		{"twomt_tinker:minevium_ingot", "twomt_tinker:minevium_ingot", "twomt_tinker:minevium_ingot"},
+		{"twomt_tinker:minevium_ingot", "twomt_tinker:minevium_plant", "twomt_tinker:minevium_ingot"},
+		{"twomt_tinker:minevium_ingot", "twomt_tinker:minevium_ingot", "twomt_tinker:minevium_ingot"},
+	}
+})
